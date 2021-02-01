@@ -4,7 +4,7 @@ class RamenShopsController < ApplicationController
   end
 
   def show
-    @ramen_ahop = RamenShop.find(params[:id])
+    @ramen_shop = RamenShop.find(params[:id])
     @review = Review.new
   end
 end
